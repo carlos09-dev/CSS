@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senac</title>
+    <link rel="icon" type="image/png" href="Imagens/senac.png">
+    <link rel="stylesheet" href = "estilo.css">
+    <style>
+        .fundo{
+            background-color: rgb(241, 241, 241);
+            height: 10000px;
+            width: 100%;
+        }
+        .cabecalho{
+            background-color: rgb(255, 255, 255);
+            height: 80px;
+            width: 100%;
+        }
+        .minicabecalho{
+            background-color: cornflowerblue;
+            height: 50px;
+            width: 100%;
+            float: left;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+        .pesquisa{
+            background-color: rgb(216, 107, 29);
+            height: 40px;
+            width: 260px;
+            float: right;
+            margin: 25px;
+            border-radius: 15px;
+        }
+        .banner{
+            background-color: blueviolet;
+            border-radius: 15px;
+            height: 250px;
+            width: 85%;
+            float: none;
+            margin: 10px;
+            margin-left: 90px;
+            display: flex;
+        }
+        .divisao{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 100%;
+            height: 245px;
+            background-color: rgb(30, 0, 139);
+            margin: auto;
+            margin-top: 5px;
+            
+        }
+        .item{
+            background-color:deeppink;
+            border-radius: 5px;
+            margin: 2px;
+            text-align: center;
+            height: 240px;
+            align-items: center;
+            align-content: center;
+        }
+        .fundo2{
+            background-color: pink;
+            height: 1000px;
+            width: 100%;
+        }
+        .caixinas{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            width: 80%;
+            float: left;
+            height: 60px;
+            padding-left: 30px;
+            margin-top: -26px;
+        }
+        .item2{
+            background-color:rgb(255, 0, 111);
+            border-radius: 5px;
+            margin: 2px;
+            text-align: center;
+            height: 30px;
+            width: 50%;
+            float: right;
+            align-items: center;
+            align-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "fundo" >
+        <div class = "cabecalho"><img src = "Imagens/senac.png"; style ="height:80px;width:120px;float:left;">
+        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Cursos </p>
+        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Linguagens </p>
+        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Projetos</p>
+        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 100px;"> Galerias </p>
+        <div class = "pesquisa"><img src="Imagens/lupa.png"; style = "height: 25px; width: 25px;float: left;margin: 8px;"><p style = "font-size: 18px; margin-top: 10px;"> Pesquise aqui ...</p></div>
+        <div class = "minicabecalho">
+            <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 250px;"> Cursos   > </p>
+            <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 20px;"> Cursos Técnicos  > </p>
+            <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 20px;"> Técinico em informática </p>
+        </div>
+        <div class = "banner"> Propaganda </div>
+        <div class="divisao">
+            <div class="item">Div 1</div>
+            <div class="item">Div 2</div>
+            <div class="item">Div 3</div>
+        </div>
+        <div class = "fundo2">
+            <h1 style = "text-align:justify; font-size: 40px; color: rgb(0, 0, 0);margin-top: 10px;float: left;padding-left: 50px;"> Sobre o Curso</h1>
+            <div class = "caixinas">
+                <div class="item2">Objetivos</div>
+                <div class="item2">Div 2</div>
+                <div class="item2">Div 3</div>
+                <div class="item2">Div 3</div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+</html>
