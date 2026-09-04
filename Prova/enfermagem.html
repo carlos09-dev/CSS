@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senac</title>
+    <link rel="icon" type="image/png" href="Imagens/senac.png">
+    <link rel="stylesheet" href = "estilo.css">
+    <style>
+        .fundo{
+            background-color: rgb(189, 189, 189);
+            height: 1665px;
+            width: 100%;
+        }
+        .container{
+            background-color: rgb(255, 255, 255);
+            height: 1660px;
+            width: 90%;
+            border-radius: 45px;
+            margin: auto;
+        }
+        .fundo1{
+            height: 1000px;
+            width: 100%;
+            display: flex;
+
+        }
+        .cabecalho{
+            background-color: rgb(255, 255, 255);
+            height: 80px;
+            width: 100%;
+            border-radius: 15px;
+        }
+        .minicabecalho{
+            background-color:rgb(60, 73, 162);
+            height: 50px;
+            width: 100%;
+            float: left;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+        .pesquisa{
+            background-color: rgb(216, 107, 29);
+            height: 40px;
+            width: 260px;
+            float: right;
+            margin: 25px;
+            border-radius: 15px;
+        }
+
+        .divisao{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 100%;
+            height: 245px;
+            margin: auto;
+            margin-top: 5px;
+        }
+        .item{
+            border-radius: 5px;
+            margin: 2px;
+            text-align: center;
+            height: 240px;
+            align-items: center;
+            align-content: center;
+            border: 1px solid black;
+        }
+        .fundo2{
+            height: 1000px;
+            width: 100%;
+        }
+        .caixinas{
+            display: grid;
+            grid-template-columns: max-content max-content max-content max-content;
+            gap: 5px;
+            width: 80%;
+            height: 150px;
+            padding-left: 30px;
+        }
+        .item2{
+            background-color: rgb(60, 73, 162);
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            height: 40px;
+            padding: 0 16px;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 17px;
+            font-weight: bold;
+        }
+        .botão{
+            background-color: rgb(248, 108, 8);
+            height: 50px;
+            width: 270px;
+            border-radius: 5px;
+            margin: auto;
+            float: right;
+            margin: 25px;
+        }
+        .rodape{
+            background:#003b8f;
+            color:white;
+            display:grid;
+            grid-template-columns:repeat(6,1fr);
+            gap:20px;
+            margin-top: 9px;
+            padding:35px 40px;
+            height: 200px;
+            border-radius: 15px;
+        }
+
+        .coluna h3{
+            font-size:18px;
+            margin-bottom:12px;
+        }
+
+        .coluna a,.coluna p{
+            display:block;
+            color:white;
+            text-decoration:none;
+            font-size:14px;
+            margin:8px 0;
+        }
+
+        .coluna a:hover{
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+    <a href = "index.html"></a>
+    <div class = "fundo">
+    <div class = "container">
+
+            <div class = "cabecalho"><a href = "Index.html"><img src = "Imagens/senac.png"; style ="height:80px;width:120px;float:left;"></a>
+                <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Cursos </p>
+                <a href = "Adm.html"><p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Administração </p></a>
+                <a href = "TI.html"><p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Informatica </p></a>
+                <a href = "enfermagem.html"><p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Enfermagem </p></a>
+            <input class="pesquisa"; style = "font-size: 15px; width: 400px;" type="search" placeholder="Pesquise um curso...">
+            </div>
+
+            <div class = "minicabecalho">
+                <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 250px;"> Cursos   > </p>
+                <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 20px;"> Cursos Técnicos  > </p>
+                <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 20px;"> Faculdades </p>
+            </div>
+
+        <div class="divisao">
+            <div class="item" ><img src = "Imagens/adm.jpg"; style="height:100%;width:230px;float:left;"><h1 style = "color: rgb(0, 0, 0);font-size: 27px;margin-top: 10px;margin-left: 10px;">Técnico Em Administração</h1><p style = "color: rgb(0, 0, 0);font-size: 27px;margin-right: 120px;"> Curso Técnico: Gestão</p>
+            <div class = "botão"><a href = "Adm.html" style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</a></div>
+            </div>
+            <div class="item" ><img src = "Imagens/informatica.jpg"; style="height:100%;width:230px;float:left;"><h1 style = "color: rgb(0, 0, 0);font-size: 27px;margin-top: 10px;margin-left: 10px;">Técnico Em Informatica</h1><p style = "color: rgb(0, 0, 0);font-size: 27px;margin-right: 120px;"> Curso Técnico: Tecnologias</p>
+            <div class = "botão"><a href = "TI.html"; style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</a></div>
+            </div>
+            <div class="item" ><img src = "Imagens/enfermagem.jpg"; style="height:100%;width:230px;float:left;"><h1 style = "color: rgb(0, 0, 0);font-size: 27px;margin-top: 10px;margin-left: 10px;">Técnico Em Enfermagem</h1><p style = "color: rgb(0, 0, 0);font-size: 27px;margin-right: 120px;"> Curso Técnico: Saúde</p>
+            <div class = "botão"><a href="enfermagem.html"; style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</a></div>
+            </div>
+        </div>
+
+        <div class = "fundo1">
+            <div>
+                <h1 style = "text-align:justify; font-size: 50px; color: rgb(28, 37, 95);margin-top: 15px;margin-bottom: -10px; padding-left: 20px;">Técnico em Enfermagem</h1>
+                <p style = "text-align:justify; font-size: 35px; color: rgb(28, 37, 95); margin: 20px; margin-bottom: 20px;">Objetivo do curso</p>
+                <p style = "text-align:justify; font-size: 25px; color: rgb(60, 73, 162); margin: 20px;margin-bottom: 30px;">O Curso Técnico em Enfermagem tem como objetivo preparar profissionais para atuar na área da saúde, oferecendo conhecimentos teóricos e práticos para o atendimento e cuidado de pacientes. Durante a formação, o estudante aprende a realizar procedimentos de enfermagem, administrar medicamentos conforme orientação e prescrição, prestar primeiros socorros, auxiliar em exames e tratamentos e contribuir para a prevenção de doenças. O curso também desenvolve habilidades relacionadas à ética profissional, humanização do atendimento, segurança do paciente e trabalho em equipe. Após a conclusão, o profissional poderá atuar em hospitais, clínicas, unidades básicas de saúde, laboratórios, instituições de longa permanência e outros serviços de saúde, respeitando as atribuições previstas para o técnico de enfermagem.</p>
+                <p style = "text-align:justify; font-size: 35px; color: rgb(28, 37, 95); margin: 20px; margin-bottom: 20px;">Duração / Carga Horária</p>           
+                <p style = "text-align:justify; font-size: 25px; color: rgb(60, 73, 162); margin: 20px;">A duração do Curso Técnico em Enfermagem pode variar de acordo com a instituição de ensino e sua organização curricular. De modo geral, a formação possui duração aproximada de 2 anos, podendo chegar a 2 anos e meio, com uma carga horária que costuma ficar em torno de 1.200 a 1.800 horas, incluindo atividades teóricas e práticas. A formação também pode contar com estágio supervisionado, proporcionando ao estudante a oportunidade de aplicar os conhecimentos adquiridos durante o curso em situações reais de trabalho.</p>
+                <p style = "text-align:justify; font-size: 35px; color: rgb(28, 37, 95); margin: 20px; margin-bottom: 20px;">Grade Curricular</p>                       
+                <p style = "text-align:justify; font-size: 25px; color: rgb(28, 37, 95); margin: 20px;">A grade curricular do Curso Técnico em Enfermagem é composta por disciplinas que abrangem conhecimentos básicos e específicos da área da saúde. Entre os principais conteúdos estão:</p>
+                <ul>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(60, 73, 162); margin: 20px; margin-bottom: -10px"> Anatomia e Fisiologia Humana;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(60, 73, 162); margin: 20px; margin-bottom: -10px;"> Fundamentos de Enfermagem;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(60, 73, 162); margin: 20px; margin-bottom: -10px"> Microbiologia e Parasitologia;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(60, 73, 162); margin: 20px; margin-bottom: -10px"> Saúde Coletiva;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(60, 73, 162); margin: 20px; margin-bottom: -10px"> Farmacologia;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(60, 73, 162); margin: 20px; margin-bottom: -10px"> Primeiros Socorros e Atendimento de Urgência e Emergência;</li>
+                    <li style = "text-align:justify; font-size: 25px; color: rgb(60, 73, 162); margin: 20px; margin-bottom: -10px"> Enfermagem Médico-Cirúrgica;</li>
+                </ul>
+                <p style = "text-align:justify; font-size: 25px; color: rgb(28, 37, 95); margin: 20px;">A combinação entre aulas teóricas, práticas em laboratório e estágio supervisionado permite que o estudante desenvolva conhecimentos técnicos, responsabilidade, atenção e capacidade para prestar uma assistência de enfermagem segura e humanizada.</p>
+            </div>
+            </div>
+
+
+    <footer class="rodape">
+        <div class="coluna">
+            <h3>O Senac</h3>
+            <a href="#">Sobre</a>
+            <a href="#">Gestão e Transparência</a>
+            <a href="#">Projeto Político Pedagógico</a>
+            <a href="#">Trabalhe Conosco</a>
+            <a href="#">Licitações</a>
+        </div>
+
+        <div class="coluna">
+            <h3>Cursos</h3>
+            <a href="#">Cursos Livres</a>
+            <a href="#">Cursos Técnicos</a>
+            <a href="#">Cursos EAD</a>
+            <a href="#">Cursos Gratuitos</a>
+        </div>
+
+        <div class="coluna">
+            <h3>Unidades</h3>
+            <a href="#">Campo Grande</a>
+            <a href="#">Corumbá</a>
+            <a href="#">Dourados</a>
+            <a href="#">Ponta Porã</a>
+        </div>
+
+        <div class="coluna">
+            <h3>Para empresas</h3>
+            <a href="#">Atendimento Corporativo</a>
+            <a href="#">Aprendizagem Profissional</a>
+            <a href="#">Consultorias</a>
+        </div>
+
+        <div class="coluna">
+            <h3>Serviços</h3>
+            <a href="#">Biblioteca Digital</a>
+            <a href="#">Fábrica de Software</a>
+            <a href="#">Planeje sua Carreira</a>
+        </div>
+
+        <div class="coluna">
+            <h3>Fale conosco</h3>
+            <p>(67) 3312-6260</p>
+            <p>atendimento@ms.senac.br</p>
+        </div>
+    </footer>
+
+    </div>
+    </div>
+</body>
+</html>

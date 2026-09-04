@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senac</title>
+    <link rel="icon" type="image/png" href="Imagens/senac.png">
+    <link rel="stylesheet" href = "estilo.css">
+    <style>
+        
+        .fundo{
+            background-color: rgb(189, 189, 189);
+            height: 1706px;
+            width: 100%;
+        }
+        .container{
+            background-color: rgb(255, 255, 255);
+            height: 1660px;
+            width: 90%;
+            border-radius: 45px;
+            margin: auto;
+        }
+        .cabecalho{
+            background-color: rgb(255, 255, 255);
+            height: 80px;
+            width: 100%;
+            border-radius: 15px;
+        }
+        .minicabecalho{
+            background-color:rgb(60, 73, 162);
+            height: 50px;
+            width: 100%;
+            float: left;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+        .pesquisa{
+            background-color: rgb(216, 107, 29);
+            height: 40px;
+            width: 260px;
+            float: right;
+            margin: 25px;
+            border-radius: 15px;
+        }
+        .banner{
+            border-radius: 15px;
+            height: 250px;
+            width: 85%;
+            float: none;
+            margin: 10px;
+            margin-bottom: 50px;
+            margin-left: 90px;
+            display: flex;
+        }
+        .divisao{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 100%;
+            height: 245px;
+            margin: auto;
+            margin-top: 5px;
+        }
+        .item{
+            border-radius: 5px;
+            margin: 2px;
+            text-align: center;
+            height: 240px;
+            align-items: center;
+            align-content: center;
+            border: 1px solid black;
+        }
+        .fundo2{
+            height: 1000px;
+            width: 100%;
+        }
+        .caixinas{
+            display: grid;
+            grid-template-columns: max-content max-content max-content max-content;
+            gap: 5px;
+            width: 80%;
+            height: 150px;
+            padding-left: 30px;
+        }
+        .item2{
+            background-color: rgb(60, 73, 162);
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            height: 40px;
+            padding: 0 16px;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 17px;
+            font-weight: bold;
+        }
+        .botão{
+            background-color: rgb(248, 108, 8);
+            height: 50px;
+            width: 270px;
+            border-radius: 5px;
+            margin: auto;
+            float: right;
+            margin: 25px;
+        }
+        .rodape{
+            background:#003b8f;
+            color:white;
+            display:grid;
+            grid-template-columns:repeat(6,1fr);
+            gap:20px;
+            padding:35px 40px;
+            margin-top: -250px;
+            height: 200px;
+            border-radius: 15px;
+        }
+
+        .coluna h3{
+            font-size:18px;
+            margin-bottom:12px;
+        }
+
+        .coluna a,.coluna p{
+            display:block;
+            color:white;
+            text-decoration:none;
+            font-size:14px;
+            margin:8px 0;
+        }
+
+        .coluna a:hover{
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+    <div class = "fundo">
+    <div class = "container" >
+        <div class = "cabecalho"><img src = "Imagens/senac.png"; style ="height:80px;width:120px;float:left;">
+        <p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Cursos </p>
+        <a href = "Adm.html"><p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Administração </p></a>
+        <a href = "TI.html"><p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Informatica </p></a>
+        <a href = "enfermagem.html"><p style = "text-align:justify; font-size: 33px; color: rgb(0, 0, 0); margin-top: 20px;float: left;padding-left: 80px;"> Tec. Enfermagem </p></a>
+        <input class="pesquisa"; style = "font-size: 15px; width: 400px;" type="search" placeholder="Pesquise um curso...">
+            <div class = "minicabecalho">
+                <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 250px;"> Cursos   > </p>
+                <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 20px;"> Cursos Técnicos  > </p>
+                <p style = "text-align:justify; font-size: 17px; color: rgb(0, 0, 0);margin-top: 15px;float: left;padding-left: 20px;"> Faculdades </p>
+            </div>
+
+        <div class = "banner">
+        <div style="width: 100%">
+            <video autoplay loop muted width="100%">
+            <source src="video/propagandaSenac.mp4" type="video/mp4">
+            </video>
+        </div>
+        </div>
+
+        <div class="divisao">
+            <div class="item" ><img src = "Imagens/adm.jpg"; style="height:100%;width:230px;float:left;"><h1 style = "color: rgb(0, 0, 0);font-size: 27px;margin-top: 10px;margin-left: 10px;">Técnico Em Administração</h1><p style = "color: rgb(0, 0, 0);font-size: 27px;margin-right: 120px;"> Curso Técnico: Gestão</p>
+            <div class="botão">
+            <a href="Adm.html"; style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</a>
+            </div>
+            </div>
+            <div class="item" ><img src = "Imagens/informatica.jpg"; style="height:100%;width:230px;float:left;"><h1 style = "color: rgb(0, 0, 0);font-size: 27px;margin-top: 10px;margin-left: 10px;">Técnico Em Informatica</h1><p style = "color: rgb(0, 0, 0);font-size: 27px;margin-right: 120px;"> Curso Técnico: Tecnologias</p>
+            <div class="botão">
+            <a href="TI.html"; style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</a>
+            </div>
+            </div>
+            <div class="item" ><img src = "Imagens/enfermagem.jpg"; style="height:100%;width:230px;float:left;"><h1 style = "color: rgb(0, 0, 0);font-size: 27px;margin-top: 10px;margin-left: 10px;">Técnico Em Enfermagem</h1><p style = "color: rgb(0, 0, 0);font-size: 27px;margin-right: 120px;"> Curso Técnico: Saúde</p>
+            <div class="botão">
+            <a href="enfermagem.html"; style = "text-align:justify; font-size: 20px; color: rgb(0, 0, 0);margin-inline: 80px;margin-top: 15px;">Saiba Mais</a>
+            </div>
+            </div>
+        </div>
+        
+
+        <div class = "fundo2">
+            <div class="caixinas"><h1 style = "grid-column: 1 / -1;color: rgb(28, 37, 95);font-size: 40px;margin: 2;padding: 0;">Sobre o Curso</h1>
+                <div class="item2">Objetivos</div>
+                <div class="item2">O que vou aprender?</div>
+                <div class="item2">Posso fazer este curso?</div>
+                <div class="item2">Terei diploma ou certificado?</div>
+            </div>
+        <h1 style = "color: rgb(28, 37, 95);font-size: 55px;margin-left: 30px;margin-bottom: 20px;">Objetivos</h1>
+        <h2 style = "color: rgb(60, 73, 162);font-size: 30px;margin-left: 30px;margin-bottom: 10px;">Objetivo geral</h2>
+        <p style = "color: rgb(0, 0, 0);font-size: 20px;margin-left: 30px;">Formar profissionais com competências para atuar em seu campo de trabalho, com foco em resultados.</p>
+        <h2 style = "color: rgb(60, 73, 162);font-size: 30px;margin-left: 30px;margin-bottom: -7px;">Objetivos específicos</h2>
+        <p style = "color: rgb(0, 0, 0);font-size: 25px;margin-left: 30px;margin-bottom: 15px;">Formar profissionais com competências para atuar em seu campo de trabalho, com foco em resultados.</p>
+        <ul style = "color: rgb(28, 42, 130);font-size: 27px;margin-left: 30px;">
+            <li> Promover o protagonismo do aluno por meio de situações de aprendizagem, que articulem e mobilizem conhecimentos, habilidades, atitudes e valores, incentivando a resolução de problemas, a criatividade e a autonomia no aprendizado.</li>
+            <li> Articular as competências do perfil profissional por meio do Projeto Integrador, promovendo o trabalho coletivo e a tomada de decisão diante dos desafios do mundo do trabalho.</li>
+            <li>Promover uma avaliação contínua, com base nos indicadores de competência, que possibilite ajustes ao longo do processo educativo e considere as especificidades dos alunos.</li>
+            <li>Incentivar a pesquisa como princípio pedagógico, estimulando a investigação crítica, a construção de conhecimento contextualizado e a integração de novas tecnologias, como a inteligência artificial às práticas do segmento de atuação profissional.</li>
+        </ul>
+        </div>
+
+    <footer class="rodape">
+        <div class="coluna">
+            <h3>O Senac</h3>
+            <a href="#">Sobre</a>
+            <a href="#">Gestão e Transparência</a>
+            <a href="#">Projeto Político Pedagógico</a>
+            <a href="#">Trabalhe Conosco</a>
+            <a href="#">Licitações</a>
+        </div>
+
+        <div class="coluna">
+            <h3>Cursos</h3>
+            <a href="#">Cursos Livres</a>
+            <a href="#">Cursos Técnicos</a>
+            <a href="#">Cursos EAD</a>
+            <a href="#">Cursos Gratuitos</a>
+        </div>
+
+        <div class="coluna">
+            <h3>Unidades</h3>
+            <a href="#">Campo Grande</a>
+            <a href="#">Corumbá</a>
+            <a href="#">Dourados</a>
+            <a href="#">Ponta Porã</a>
+        </div>
+
+        <div class="coluna">
+            <h3>Para empresas</h3>
+            <a href="#">Atendimento Corporativo</a>
+            <a href="#">Aprendizagem Profissional</a>
+            <a href="#">Consultorias</a>
+        </div>
+
+        <div class="coluna">
+            <h3>Serviços</h3>
+            <a href="#">Biblioteca Digital</a>
+            <a href="#">Fábrica de Software</a>
+            <a href="#">Planeje sua Carreira</a>
+        </div>
+
+        <div class="coluna">
+            <h3>Fale conosco</h3>
+            <p>(67) 3312-6260</p>
+            <p>atendimento@ms.senac.br</p>
+        </div>
+    </footer>
+
+    </div>
+    </div>
+    </div>
+</body>
+</html>
